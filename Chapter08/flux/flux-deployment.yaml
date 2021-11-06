@@ -63,7 +63,7 @@ spec:
         - --ssh-keygen-dir=/var/fluxd/keygen
 
         # Replace the following URL to change the Git repository used by Flux.
-        - --git-url=https://github.com/chi110356042/Hands-On-Docker-for-Microservices-with-Python
+        - --git-url=git@github.com:chi110356042/Hands-On-Docker-for-Microservices-with-Python
         - --git-branch=master
           # include this if you want to restrict the manifests considered by flux
           # to those under the following relative paths in the git repository
